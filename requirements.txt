@@ -1,0 +1,4 @@
+dasbus==1.6
+pycairo==1.21.0
+PyGObject==3.42.2
+git+ssh://git@github.com:gotthardp/python-mercuryapi.git@master#egg=mercuryapi
