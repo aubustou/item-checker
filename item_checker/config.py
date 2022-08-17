@@ -30,6 +30,6 @@ def load_settings() -> None:
         CONFIG = Config()
 
     time.sleep(2)
-    READER = Reader("tmr://" + CONFIG.device)
-    READER.set_region(CONFIG.region)
-    READER.set_read_plan([1], CONFIG.read_plan)
+    READER = Reader("tmr://" + CONFIG.reader_device)
+    READER.set_region(CONFIG.reader_region)
+    READER.set_read_plan([1], CONFIG.reader_read_plan)
