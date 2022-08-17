@@ -1,0 +1,7 @@
+{
+	"name": "item-checker",
+	"exec_name": "item-checker",
+	"git_address": "https://github.com/aubustou/item-checker.git",
+	"git_branch": "main",
+	"python_exec_path": "python3.9"
+}
