@@ -1,10 +1,10 @@
 from .config import load_settings
-from .rfid import loop
 
 
 def main():
     load_settings()
 
+    from .rfid import loop
     loop()
 
 
